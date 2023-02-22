@@ -1,8 +1,12 @@
 package config
 
-const (
-	ScreenWidth  = 1024
-	ScreenHeight = 968
+import "image/color"
 
-	MaxCount = 10000
+const (
+	ScreenWidth  = 640
+	ScreenHeight = 480
+)
+
+var (
+	BackgroundColor = color.RGBA{R: 50, G: 100, B: 50, A: 50}
 )
